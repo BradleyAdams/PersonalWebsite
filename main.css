@@ -1,0 +1,35 @@
+@import url (''https://fonts.googleapis.com/css?family=Open+Sans|Roboto'');
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+}
+
+nav {
+  list-style: none;
+}
+
+a {
+  margin:15px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px 100px 0;
+}
+
+header h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+  display:flex;
+  margin-right: -15px;
+}
+
+header nav li {
+  margin:0 15px;
+}
